@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>netflicx :DD&</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                var comment = $.trim($("#comment").val());
+                if(comment != ""){
+                    // Show alert dialog if value is not blank
+                    alert(comment);
+                }
+            });
+
+        });
+    </script>
+
+    </script>
 </head>
 <body>
-<textarea id="txtArea" placeholder="insert data here..."></textarea><br><br>
-<button id="btn">showmore <3</button>
-<a href="index.html">home</a></li>
-<script src="netflixChecker.js">
-    btn.addEventListener("click", function () {
-        var txtArea = document.getElementById("txtArea").value;
-        console.log(txtArea);
-    });
-
-</script>
+<textarea id="comment" placeholder="insert data here..."></textarea>
+<p><button type="button">showmore<3</button></p>
 </body>
 </html>
