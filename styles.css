@@ -1,0 +1,21 @@
+/*basic style*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background: #fff;
+}
+
+/* clickable container */
+.clickable {
+    cursor: pointer;
+}
+
+/* hover effect */
+.panel-heading span {
+    margin-top: -20px;
+    font-size: 15px;
+    color: #fff;
+}
+
